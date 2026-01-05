@@ -172,13 +172,44 @@
 					<section id="cta" class="wrapper style4">
 						<div class="inner">
 							<header>
-								<h2>Arcue ut vel commodo</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla.</p>
-							</header>
-							<ul class="actions stacked">
-								<li><a href="#" class="button fit primary">Activate</a></li>
-								<li><a href="#" class="button fit">Learn More</a></li>
-							</ul>
+								<h2>Booking / Kontakt</h2>
+      <p>Pošaljite upit za nastup, suradnju ili medije.</p>
+      <p style="margin-top: 1rem;">
+        <strong>Baba production d.o.o.</strong><br>
+        E-mail: <a href="mailto:dinobahtijarevic@gmail.com">dinobahtijarevic@gmail.com</a><br>
+        Tel: <a href="tel:+385915567294">091 556 72 94</a>
+      </p>
+    </header>
+
+    <form method="POST" action="https://formspree.io/f/xgovrvyd" style="max-width: 760px; margin: 0 auto;">
+      <div class="row gtr-uniform">
+
+        <div class="col-12">
+          <label for="name">Vaše ime</label>
+          <input type="text" name="name" id="name" placeholder="Upišite svoje ime" required />
+        </div>
+
+        <div class="col-12">
+          <label for="email">Vaša e-pošta</label>
+          <input type="email" name="email" id="email" placeholder="npr. ime@domena.com" required />
+        </div>
+
+        <div class="col-12">
+          <label for="subject">Predmet</label>
+          <input type="text" name="subject" id="subject" placeholder="npr. Booking upit" required />
+        </div>
+
+        <div class="col-12">
+          <label for="message">Vaša poruka</label>
+          <textarea name="message" id="message" placeholder="Napišite poruku..." rows="6" required></textarea>
+        </div>
+
+        <!-- opcionalno: anti-spam -->
+        <input type="text" name="_gotcha" style="display:none">
+
+        <div class="col-12" style="text-align:center; margin-top: 1rem;">
+          <button type="submit" class="button primary">Pošalji</button>
+        </div>
 						</div>
 					</section>
 
@@ -210,6 +241,7 @@
 	</body>
 
 </html>
+
 
 
 
