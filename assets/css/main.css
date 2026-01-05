@@ -4012,4 +4012,21 @@ input, select, textarea {
     background-repeat: no-repeat;
     background-attachment: fixed;
 
+/* FORCE hero background image */
+#banner {
+    background-image:
+        linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+        url("../../images/about.jpg") !important;
+
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+}
+
+/* REMOVE Spectral overlay */
+#banner:before {
+    background: none !important;
+}
+
+
 
