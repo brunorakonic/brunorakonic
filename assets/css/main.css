@@ -4060,6 +4060,22 @@ input, select, textarea {
     text-align:center;
   }
 }
+/* FORCE O MENI background image */
+#one {
+    background-image:
+        linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),
+        url("../../images/o-meni.jpg") !important;
+
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+}
+
+/* REMOVE Spectral overlay for O MENI */
+#one:before {
+    background: none !important;
+}
+
 
 
 
