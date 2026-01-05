@@ -4039,9 +4039,14 @@ input, select, textarea {
   text-align: left;
 }
 
+.o-meni-img {
+  flex-shrink: 0;
+}
+
 .o-meni-img img {
-  width: 360px;
+  width: 320px;     /* promijeni broj ako želiš */
   max-width: 100%;
+  height: auto;
   border-radius: 12px;
   display: block;
 }
@@ -4062,6 +4067,7 @@ input, select, textarea {
   }
 }
 	
+
 
 
 
