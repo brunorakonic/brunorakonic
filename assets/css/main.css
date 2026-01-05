@@ -4027,6 +4027,40 @@ input, select, textarea {
 #banner:before {
     background: none !important;
 }
+	/* O MENI - slika + tekst */
+.o-meni-wrap{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:3rem;
+  text-align:left;
+}
+
+.o-meni-img img{
+  width: 360px;
+  max-width: 100%;
+  border-radius: 10px;
+  display:block;
+}
+
+/* da header (major) ne centrira sve */
+.o-meni-text{
+  max-width: 620px;
+  margin: 0;
+}
+
+.o-meni-text h2{
+  margin-top: 0;
+}
+
+/* Mobile */
+@media screen and (max-width: 980px){
+  .o-meni-wrap{
+    flex-direction: column;
+    text-align:center;
+  }
+}
+
 
 
 
