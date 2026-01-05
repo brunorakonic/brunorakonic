@@ -170,46 +170,48 @@
 
 				<!-- CTA -->
 					<section id="cta" class="wrapper style4">
-						<div class="inner">
-							<header>
-								<h2>Booking / Kontakt</h2>
-      <p>Pošaljite upit za nastup, suradnju ili medije.</p>
-      <p style="margin-top: 1rem;">
-        <strong>Baba production d.o.o.</strong><br>
-        E-mail: <a href="mailto:dinobahtijarevic@gmail.com">dinobahtijarevic@gmail.com</a><br>
-        Tel: <a href="tel:+385915567294">091 556 72 94</a>
-      </p>
-    </header>
+						<div class="inner" style="display:flex; gap:4rem; align-items:flex-start;">
 
-    <form method="POST" action="https://formspree.io/f/xgovrvyd" style="max-width: 760px; margin: 0 auto;">
-      <div class="row gtr-uniform">
-
-        <div class="col-12">
+    <!-- LIJEVO: FORMA -->
+    <div style="flex:1;">
+      <form method="POST" action="https://formspree.io/f/xgovrvyd">
+        
+        <div class="field">
           <label for="name">Vaše ime</label>
           <input type="text" name="name" id="name" placeholder="Upišite svoje ime" required />
         </div>
 
-        <div class="col-12">
+        <div class="field">
           <label for="email">Vaša e-pošta</label>
           <input type="email" name="email" id="email" placeholder="npr. ime@domena.com" required />
         </div>
 
-        <div class="col-12">
+        <div class="field">
           <label for="subject">Predmet</label>
           <input type="text" name="subject" id="subject" placeholder="npr. Booking upit" required />
         </div>
 
-        <div class="col-12">
+        <div class="field">
           <label for="message">Vaša poruka</label>
-          <textarea name="message" id="message" placeholder="Napišite poruku..." rows="6" required></textarea>
+          <textarea name="message" id="message" rows="6" placeholder="Napišite poruku..." required></textarea>
         </div>
 
-        <!-- opcionalno: anti-spam -->
         <input type="text" name="_gotcha" style="display:none">
 
-        <div class="col-12" style="text-align:center; margin-top: 1rem;">
-          <button type="submit" class="button primary">Pošalji</button>
-        </div>
+        <ul class="actions">
+          <li><button type="submit" class="button primary">Pošalji</button></li>
+        </ul>
+
+      </form>
+    </div>
+
+    <!-- DESNO: TEKST -->
+    <div style="flex:0.8; padding-left:2rem;">
+      <h2>Booking / Kontakt</h2>
+      <p>
+        Pošaljite upit 
+      </p>
+    </div>
 						</div>
 					</section>
 
@@ -241,6 +243,7 @@
 	</body>
 
 </html>
+
 
 
 
