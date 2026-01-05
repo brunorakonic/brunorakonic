@@ -4011,7 +4011,5 @@ input, select, textarea {
     background-position: center 30%;
     background-repeat: no-repeat;
     background-attachment: fixed;
-}
-#banner:before {
-    background: none !important;
-}
+
+
