@@ -4056,6 +4056,10 @@ input, select, textarea {
 
     text-align: left !important;
 }
+/* TWO – pomakni Spotify content udesno */
+#two .spotlight .content {
+  padding-left: 4rem;   /* povećaj ako želiš još udesno */
+}
 
 
 
