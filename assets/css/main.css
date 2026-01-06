@@ -4020,7 +4020,7 @@ input, select, textarea {
         url("../../images/about.jpg") !important;
 
     background-size: cover !important;
-    background-position: center center !important;
+    background-position: 70% 30% !important;
     background-repeat: no-repeat !important;
 }
 
@@ -4050,6 +4050,7 @@ input, select, textarea {
 #one.o-meni-bg .inner {
   padding: 8rem 2rem;
 }
+
 
 
 
