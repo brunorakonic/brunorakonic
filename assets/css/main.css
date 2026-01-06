@@ -4056,17 +4056,18 @@ input, select, textarea {
 
     text-align: left !important;
 }
-/* TWO – pomakni Spotify udesno */
+/* TWO – Spotify pomak udesno (radi i kad je Spectral layout) */
 #two .spotlight .content.spotify-center {
-  display: flex;
-  justify-content: flex-start; /* ne center */
-  padding-left: 6rem;          /* KLJUČNO: gura udesno */
+  display: flex !important;
+  justify-content: flex-end !important; /* gura udesno */
+  align-items: center !important;
 }
 
 #two .spotlight .content.spotify-center iframe {
-  max-width: 760px;
-  width: 100%;
+  width: min(760px, 100%) !important; /* NE 100% full time */
+  margin-left: auto !important;        /* dodatno gura udesno */
 }
+
 
 
 
