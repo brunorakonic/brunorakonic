@@ -4056,11 +4056,12 @@ input, select, textarea {
 
     text-align: left !important;
 }
-/* TWO – pomakni Spotify content udesno */
-#two .spotlight .content {
-  padding-left: 4rem;   /* povećaj ako želiš još udesno */
+#two .spotlight .content iframe {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  max-width: 90%;
 }
-
 
 
 
