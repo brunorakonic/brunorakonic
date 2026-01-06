@@ -4052,6 +4052,29 @@ input, select, textarea {
   position: relative;
   z-index: 1;
 }
+/* =========================
+   O MENI – BACKGROUND
+========================= */
+
+.o-meni-bg {
+  background-image:
+    linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+    url("../../images/o-meni.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* makni Spectral overlay */
+.o-meni-bg:before {
+  display: none;
+}
+
+/* malo više zraka */
+.o-meni-bg .inner {
+  padding: 8rem 2rem;
+}
 
 
 
