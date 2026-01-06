@@ -4066,7 +4066,15 @@ input, select, textarea {
     text-align: center;
   }
 }
+	#one {
+  padding: 4rem 0;   /* smanjuje visinu sekcije */
+}
+	.o-meni-wrap {
+  max-width: 1100px;
+  margin: 0 auto;
+}
 	
+
 
 
 
