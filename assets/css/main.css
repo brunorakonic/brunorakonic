@@ -4048,7 +4048,7 @@ input, select, textarea {
     url("../../images/o-meni.jpg");
 
   background-size: cover;
-  background-position: 90% 50%; /* ⬅⬅ OVDJE MIJENJAŠ POZICIJU */
+  background-position: 90% 50% !important; /* ⬅⬅ OVDJE MIJENJAŠ POZICIJU */
   background-repeat: no-repeat;
   z-index: 0;
 }
@@ -4058,6 +4058,7 @@ input, select, textarea {
   z-index: 1;
   padding: 8rem 2rem;
 }
+
 
 
 
