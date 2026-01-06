@@ -4028,6 +4028,7 @@ input, select, textarea {
 #banner:before {
     background: none !important;
 	}
+
 #one.o-meni-bg{
   background-image:
     linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
@@ -4041,7 +4042,6 @@ input, select, textarea {
   /* DOLJE + DESNO */
   background-position: 100% 95% !important;
 }
-
 
 
 
