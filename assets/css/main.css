@@ -4042,6 +4042,12 @@ input, select, textarea {
   /* DOLJE + DESNO */
   background-position: 55% 15% !important;
 }
+/* PRODUŽI O MENI SEKCIJU DA SE VIDI VIŠE SLIKE */
+#one.o-meni-bg {
+    min-height: 85vh !important; /* možeš 80–100vh */
+    padding-top: 10rem !important;
+    padding-bottom: 10rem !important;
+}
 
 
 
