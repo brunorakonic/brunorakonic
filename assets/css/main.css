@@ -4073,7 +4073,10 @@ section#one.wrapper.style1.special.o-meni-bg > .inner {
   z-index: 1 !important;
   padding: 8rem 2rem;
 }
-body { outline: 10px solid lime !important; }
+body {
+  background: red !important;
+}
+
 
 
 
