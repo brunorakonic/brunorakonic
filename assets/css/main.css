@@ -4037,11 +4037,12 @@ input, select, textarea {
   background-repeat: no-repeat !important;
 
   /* manje rezanja */
-  background-size: 110% auto !important;
+  background-size: 100% auto !important;
 
   /* DOLJE + DESNO */
-  background-position: 100% 95% !important;
+  background-position: 85% 55% !important;
 }
+
 
 
 
