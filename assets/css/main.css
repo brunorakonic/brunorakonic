@@ -4011,6 +4011,7 @@ input, select, textarea {
     background-position: center 30%;
     background-repeat: no-repeat;
     background-attachment: fixed;
+	}
 
 /* FORCE hero background image */
 #banner {
@@ -4075,6 +4076,7 @@ input, select, textarea {
 .o-meni-bg .inner {
   padding: 8rem 2rem;
 }
+
 
 
 
