@@ -4028,53 +4028,18 @@ input, select, textarea {
 #banner:before {
     background: none !important;
 	}
-
-/* =========================
-   O MENI – BACKGROUND (HARD OVERRIDE)
-========================= */
-
-/* 1) ugasi bilo kakav background na samom sectionu */
-section#one.wrapper.style1.special.o-meni-bg {
-  background: none !important;
-  position: relative !important;
-  overflow: hidden !important;
-}
-
-/* 2) ugasi template overlaye ako postoje */
-section#one.wrapper.style1.special.o-meni-bg::after {
-  content: none !important;
-  display: none !important;
-}
-
-/* 3) napravi naš background koji se SIGURNO pomiče */
-section#one.wrapper.style1.special.o-meni-bg::before {
-  content: "" !important;
-  position: absolute !important;
-  inset: 0 !important;
-
+#one.o-meni-bg{
   background-image:
     linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
-    url("../../images/o-meni.jpg") !important;
+    url("../images/o-meni.jpg") !important;
 
   background-repeat: no-repeat !important;
 
-  /* ako ti "reže glavu", COVER reže — zato smanjimo zoom */
+  /* manje rezanja */
   background-size: 110% auto !important;
 
-  /* DOLJE + DESNO (pomiči ove brojke) */
-  background-position: 100% 85% !important;
-
-  z-index: 0 !important;
-}
-
-/* 4) tekst iznad pozadine */
-section#one.wrapper.style1.special.o-meni-bg > .inner {
-  position: relative !important;
-  z-index: 1 !important;
-  padding: 8rem 2rem;
-}
-body {
-  background: red !important;
+  /* DOLJE + DESNO */
+  background-position: 100% 95% !important;
 }
 
 
