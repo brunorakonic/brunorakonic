@@ -4039,7 +4039,7 @@ input, select, textarea {
     url("../../images/o-meni.jpg") !important;
 
   background-size: cover;
-  background-position: 40% 5% !important;
+  background-position: 30% 10% !important;
   background-repeat: no-repeat;
 }
 
@@ -4054,6 +4054,7 @@ input, select, textarea {
 body.landing #one.o-meni-bg {
   background-position: 30% 10% !important;
 }
+
 
 
 
