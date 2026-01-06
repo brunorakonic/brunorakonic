@@ -4027,53 +4027,6 @@ input, select, textarea {
 #banner:before {
     background: none !important;
 }
-/* =========================
-   O MENI – proširena sekcija
-========================= */
-
-#one .inner.wide {
-  width: 90%;
-  max-width: 1400px;
-}
-
-.o-meni-layout {
-  display: flex;
-  align-items: center;
-  gap: 4rem;
-}
-
-.o-meni-text {
-  flex: 1;
-}
-
-.o-meni-image {
-  flex: 1;
-}
-
-.o-meni-image img {
-  width: 100%;
-  max-width: 520px;
-  border-radius: 16px;
-  display: block;
-}
-
-/* MOBILE */
-@media screen and (max-width: 980px) {
-  .o-meni-layout {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .o-meni-image img {
-    max-width: 320px;
-  }
-}
-
-
-
-
-
-
 
 
 
