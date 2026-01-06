@@ -4027,37 +4027,8 @@ input, select, textarea {
 #banner:before {
     background: none !important;
 }
-.o-meni-wrap {
-  display: flex;
-  align-items: center;
-  gap: 3rem;
-}
 
-.o-meni-img {
-  flex-shrink: 0;
-}
 
-.o-meni-img img {
-  width: 300px;
-  height: auto;
-  border-radius: 12px;
-  display: block;
-}
-
-.o-meni-text {
-  max-width: 600px;
-}
-
-@media screen and (max-width: 980px) {
-  .o-meni-wrap {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .o-meni-img img {
-    width: 240px;
-  }
-}
 
 
 
