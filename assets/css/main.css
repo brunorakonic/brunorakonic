@@ -4027,53 +4027,27 @@ input, select, textarea {
 /* REMOVE Spectral overlay */
 #banner:before {
     background: none !important;
-/* O MENI – BACKGROUND slika */
-.o-meni-bg {
-  position: relative;
-  background-image: url("../../images/o-meni.jpg") !important;
-  background-size: cover !important;
-  background-position: center center !important;
-  background-repeat: no-repeat !important;
+	}
 
-  /* ovo je ključno: makne boju style1 koja prekriva sliku */
-  background-color: transparent !important;
-}
-
-/* overlay */
-.o-meni-bg::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: rgba(0,0,0,0.55);
-  z-index: 0;
-}
-
-/* sadržaj iznad overlaya */
-.o-meni-bg > .inner {
-  position: relative;
-  z-index: 1;
-}
 /* =========================
    O MENI – BACKGROUND
 ========================= */
 
-.o-meni-bg {
+#one.o-meni-bg {
   background-image:
     linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
-    url("../../images/o-meni.jpg");
+    url("../../images/o-meni.jpg") !important;
 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-/* makni Spectral overlay */
-.o-meni-bg:before {
-  display: none;
+#one.o-meni-bg:before {
+  display: none !important;
 }
 
-/* malo više zraka */
-.o-meni-bg .inner {
+#one.o-meni-bg .inner {
   padding: 8rem 2rem;
 }
 
