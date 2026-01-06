@@ -4026,34 +4026,6 @@ input, select, textarea {
 /* REMOVE Spectral overlay */
 #banner:before {
     background: none !important;
-}
-/* O MENI kao BACKGROUND */
-#one {
-  position: relative;
-  background-image: url("../../images/o-meni.jpg") !important;
-  background-size: cover !important;
-  background-position: center center !important;
-  background-repeat: no-repeat !important;
-
-  /* poništi boju wrappera style1 */
-  background-color: transparent !important;
-}
-
-/* tamni overlay da se tekst vidi */
-#one::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.55);
-  z-index: 0;
-}
-
-/* tekst iznad overlaya */
-#one > .inner {
-  position: relative;
-  z-index: 1;
-}
-
 
 
 
