@@ -4034,20 +4034,28 @@ input, select, textarea {
 ========================= */
 
 #one.o-meni-bg {
-  background-image:
-    linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
-    url("../../images/o-meni.jpg") !important;
-
-  background-size: cover;
-  background-position: 80% 50% !important;
-  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
 }
 
-#one.o-meni-bg:before {
-  display: none !important;
+#one.o-meni-bg::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background-image:
+    linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+    url("../../images/o-meni.jpg");
+
+  background-size: cover;
+  background-position: 80% 50%; /* ⬅⬅ OVDJE MIJENJAŠ POZICIJU */
+  background-repeat: no-repeat;
+  z-index: 0;
 }
 
 #one.o-meni-bg .inner {
+  position: relative;
+  z-index: 1;
   padding: 8rem 2rem;
 }
 
