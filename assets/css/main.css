@@ -4048,6 +4048,15 @@ input, select, textarea {
     padding-top: 10rem !important;
     padding-bottom: 10rem !important;
 }
+/* O MENI – TEKST LIJEVO U KADRU */
+#one.o-meni-bg .inner {
+    max-width: 60rem;        /* kontrola širine teksta */
+    margin-left: 8%;         /* gura tekst ulijevo */
+    margin-right: auto;
+
+    text-align: left !important;
+}
+
 
 
 
