@@ -4073,6 +4073,16 @@ section#one.wrapper.style1.special.o-meni-bg > .inner {
   z-index: 1 !important;
   padding: 8rem 2rem;
 }
+/* O MENI – BACKGROUND (WORKING) */
+#one.o-meni-bg{
+  background-image:
+    linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+    url("../../images/o-meni.jpg") !important;
+
+  background-repeat: no-repeat !important;
+  background-size: 120% auto !important;   /* pokaže više “dole” */
+  background-position: 100% 95% !important; /* DESNO + DOLJE */
+}
 
 
 
