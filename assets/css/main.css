@@ -4056,14 +4056,21 @@ input, select, textarea {
 
     text-align: left !important;
 }
-#two .spotlight .content iframe {
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  max-width: 90%;
+/* TWO – centriraj spotify player u desnom stupcu */
+#two .spotlight .content {
+  display: flex !important;
+  justify-content: center !important;
 }
 
+#two .spotlight .content > div {
+  width: 100%;
+  max-width: 760px; /* po želji 700-900 */
+}
 
+#two .spotlight .content iframe {
+  width: 100% !important;
+  display: block;
+}
 
 
 
