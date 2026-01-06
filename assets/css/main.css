@@ -4050,6 +4050,10 @@ input, select, textarea {
 #one.o-meni-bg .inner {
   padding: 8rem 2rem;
 }
+/* === FORCE O MENI BACKGROUND POSITION === */
+body.landing #one.o-meni-bg {
+  background-position: 30% 10% !important;
+}
 
 
 
